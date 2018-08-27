@@ -1,12 +1,15 @@
 +++
-title = "Dialing eSigning"
-menuTitle = "Dialing eSigning"
-date = 2018-08-27T16:22:22+03:00
-weight = 5
 chapter = false
-#pre = "<b>2. </b>"
+date = "2018-08-27T16:22:22.000+03:00"
+menuTitle = "Dialing eSigning"
+title = "Dialing eSigning"
+weight = 5
+
 +++
 
 
-
 Lorem Ipsum.
+
+This is just some text here okay
+
+![](/uploads/Screenshot 2018-08-22 15.25.40.png)
