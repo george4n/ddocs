@@ -8,6 +8,6 @@ chapter = true
 
 ### Chapter 1
 
-# Some Chapter title
+# Basic Introduction to Dialing
 
 Lorem Ipsum.

@@ -29,7 +29,7 @@ home = [ "HTML", "RSS", "JSON"]
   # When using mulitlingual website, disable the switch language button.
   disableLanguageSwitchingButton = false
   # Order sections in menu by "weight" or "title". Default to "weight"
-  ordersectionsby = "title"
+  ordersectionsby = "weight"
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "blue"
 
