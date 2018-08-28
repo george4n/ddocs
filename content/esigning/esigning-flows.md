@@ -30,5 +30,3 @@ From this page, we can:
 * Activate/deactivate flow - click on the active/inactive status
 
 ![](/uploads/esigning-flows.png)
-
-.
