@@ -40,7 +40,19 @@ By default, Dialing allows inserting default lead date data such as Firstname, L
 
 ![](/uploads/Screenshot 2018-08-28 20.47.07.png)
 
+When you are done inserting merge field, click "Next Step" or "Save".
+
 ### Senders
+
+All documents are sent from reports@dialing.se with the from-name masked as the name of the sender you chose. The reply-to address is set as the sender you chose as well.
+
+There are two types of senders; **static** and **dynamic**.
+
+**Static Sender**: All documents will be sent from this sender. Either select a single user from the list, or select “Add Sender” to create a new one. 
+
+**Dynamic Sender**: This setting will will allow for dynamic senders. All documents will will be sent from each respective agent in Dialing. Customers can reply directly to the agent via email. The user profiles should be updated with Firstname, Lastname and Title and Mobile (if required). Select “dynamic sender” when adding a sender. 
+
+![](/uploads/Screenshot 2018-08-28 20.51.11.png)
 
 ### Document Setup
 
