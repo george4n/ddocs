@@ -58,6 +58,12 @@ When you are done with this step, click "Next".
 
 ### Document Setup
 
+In this part, we have to map data from the Dialing system to the document template.
+
+The page will initially look something like this:
+
+![](/uploads/Screenshot 2018-08-28 20.59.49.png)
+
 ### Flow Settings
 
 ### SMS & Email Settings
