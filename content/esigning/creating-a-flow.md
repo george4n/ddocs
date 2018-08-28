@@ -72,11 +72,11 @@ For each field, we can select a Data Type and Data Value to insert into the fiel
 
 You can insert system variables into your fields:
 
-* Ringcard Fields, begin with "rc"
+Ringcard Fields, begin with "rc"
 
     {{rc.firstname}}
 
-* Order Form Fields, begin with "of"
+Order Form Fields, begin with "of"
 
     {{of.product}}
 
