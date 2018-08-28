@@ -70,6 +70,8 @@ The first field "Document Name" is a standard field, and will be present in all 
 
 For each field, we can select a Data Type and Data Value to insert into the field.
 
+    {{rc.Personnummer/Organisationsnummer}}-[YYYY-MM-DD]-Document
+
 ### Flow Settings
 
 ### SMS & Email Settings
