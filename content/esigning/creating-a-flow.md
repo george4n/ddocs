@@ -64,6 +64,12 @@ The page will initially look something like this:
 
 ![](/uploads/Screenshot 2018-08-28 20.59.49.png)
 
+Select which template to load, if you have already done this in the first step, then move onto selecting which campaign this flow will apply to.
+
+The first field "Document Name" is a standard field, and will be present in all flows. We can also see a field for "Firstname", "Lastname" and "our-custom-field" in the example above.
+
+For each field, we can select a Data Type and Data Value to insert into the field.
+
 ### Flow Settings
 
 ### SMS & Email Settings
