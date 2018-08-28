@@ -6,29 +6,27 @@ weight: 2
 ---
 ### What is an eSigning Flow?
 
-Think of an **eSigning Flow** as a blueprint for how documents should be sent to your customers. In a flow, you can configure:
+An **eSigning Flow** is a blueprint for how documents should be sent to your customers. In a flow, you can configure:
 
-* The senders of a document
-* The data pushed into the document
-* Triggers for how customers interact with a document
+* The senders of a document - from who the document will be sent from
+* The data pushed into the document - you can push data into the document from the ringcard, orderforms, etc
+* Triggers for how customers interact with a document - what should happen if a document gets signed, rejected, or expired.
 
-Any document sent through a flow will obey the rules above.
+The **eSigning Flow** page gives us a complete overview of all document flows. On this page, we can see the following:
 
-The **eSigning Flow** page gives us a complete overview of all document flows. A document flow is a template mechanism for how documents should be created and sent to customers. It shows:
-
-* Flow Title
-* Campaign
-* Trigger Type (SMS and/or Email)
-* Status (Active/Inactive)
-* Date Created
-* Creator
-* E-sign Provider
+* Flow Title - a name given to the flow
+* Campaign - which campaigns will use this flow
+* Trigger Type (SMS and/or Email) - you can send via SMS or Email or both!
+* Status - whether a flow is active or inactive
+* Date Created - when the flow was created
+* Creator - who created the flow
+* eSigning Provider - which eSigning provider the flow will utilise
 
 From this page, we can:
 
 * Create new flows
 * Duplicate flows
 * Delete flow
-* Activate/deactivate flow
+* Activate/deactivate flow - click on the active/inactive status
 
 ![](/uploads/esigning-flows.png)
