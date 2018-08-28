@@ -48,9 +48,9 @@ All documents are sent from reports@dialing.se with the from-name masked as the 
 
 There are two types of senders; **static** and **dynamic**.
 
-**Static Sender**: All documents will be sent from this sender. Either select a single user from the list, or select “Add Sender” to create a new one. 
+**Static Sender**: All documents will be sent from this sender. Either select a single user from the list, or select “Add Sender” to create a new one.
 
-**Dynamic Sender**: This setting will will allow for dynamic senders. All documents will will be sent from each respective agent in Dialing. Customers can reply directly to the agent via email. The user profiles should be updated with Firstname, Lastname and Title and Mobile (if required). Select “dynamic sender” when adding a sender. 
+**Dynamic Sender**: This setting will will allow for dynamic senders. All documents will will be sent from each respective agent in Dialing. Customers can reply directly to the agent via email. The user profiles should be updated with Firstname, Lastname and Title and Mobile (if required). Select “dynamic sender” when adding a sender.
 
 ![](/uploads/Screenshot 2018-08-28 20.51.11.png)
 
@@ -68,7 +68,27 @@ Select which template to load, if you have already done this in the first step, 
 
 The first field "Document Name" is a standard field, and will be present in all flows. We can also see a field for "Firstname", "Lastname" and "our-custom-field" in the example above.
 
-For each field, we can select a Data Type and Data Value to insert into the field.
+For each field, we can select a Data Type and Data Value to insert into the field. They will be inserted as a **shortcode**. You can use shortcodes to construct numbers and strings. You can also apply functions to these shortcodes. It sounds complicating, but really, its not :)
+
+You can insert system variables into your fields:
+
+* Ringcard Fields, begin with "rc"
+
+    {{rc.firstname}}
+
+* Order Form Fields, begin with "of"
+
+    {{of.product}}
+
+These variables must always be enclosed inside double curly braces like so:
+
+    {{xx.variableName}}
+
+Functions - There are a number of functions you can execute against variables. Functions are always wrapped in double brackets like so:
+
+    [[ 1 + 2 ]]
+
+These shortcodes can be made up of the following:
 
     {{rc.Personnummer/Organisationsnummer}}-[YYYY-MM-DD]-Document
 
