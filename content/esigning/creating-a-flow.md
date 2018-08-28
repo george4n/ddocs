@@ -54,6 +54,8 @@ There are two types of senders; **static** and **dynamic**.
 
 ![](/uploads/Screenshot 2018-08-28 20.51.11.png)
 
+When you are done with this step, click "Next".
+
 ### Document Setup
 
 ### Flow Settings
