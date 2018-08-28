@@ -34,9 +34,11 @@ Now you can drag "Merge Fields" and "Signature Fields" onto your document. When 
 * Text justification
 * Color
 
-![](/uploads/Screenshot 2018-08-28 20.40.06.png)
+![](/uploads/Screenshot 2018-08-28 20.48.51.png)
 
 By default, Dialing allows inserting default lead date data such as Firstname, Lastname, Zip Code, etc. However, you can also create a custom field for custom data simply by selecting "Custom Field" for the merge type.
+
+![](/uploads/Screenshot 2018-08-28 20.47.07.png)
 
 ### Senders
 
