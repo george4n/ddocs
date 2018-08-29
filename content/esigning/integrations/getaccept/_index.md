@@ -6,10 +6,4 @@ title = "GetAccept"
 weight = 4
 
 +++
-
-
-Lorem Ipsum.
-
-This is just some text here okay
-
-![](/uploads/Screenshot 2018-08-22 15.25.40.png)
+Coming Soon
