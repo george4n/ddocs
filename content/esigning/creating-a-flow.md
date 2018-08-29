@@ -138,4 +138,6 @@ If a document gets rejected or expires, you can set it to **"Failure"** or even 
 
 ### SMS & Email Settings
 
-This is the final step in creating a flow.
+This is the final step in creating a flow. Here we can upload a logo for the signing page, we can also set the email and SMS body text using system variables.
+
+![](/uploads/Screenshot 2018-08-29 10.37.19.png)
