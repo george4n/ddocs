@@ -6,4 +6,4 @@ title = "GetAccept"
 weight = 4
 
 +++
-Coming Soon
+Dialing has built an integration with GetAccept to give our customers wider variety as to which eSigning service they want to use. In this chapter, we will take an in-depth view how the Dialing + GetAccept integration works.
