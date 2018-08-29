@@ -8,7 +8,7 @@ weight = 3
 +++
 Here we will learn how to create an eSinging flow in GetAccept. To begin, on the eSigning Flows page, click on "Create a Flow".
 
-![](/uploads/Screenshot 2018-08-28 20.32.14.png)
+![](/uploads/Screenshot 2018-08-29 15.03.22.png)
 
 Then select "GetAccept"
 
