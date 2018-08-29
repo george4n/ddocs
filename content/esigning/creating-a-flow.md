@@ -16,6 +16,8 @@ Then select "Dialing eSigning"
 
 ![](/uploads/Screenshot 2018-08-28 20.34.26.png)
 
+***
+
 ### Template Setup
 
 The first step in making an eSigning flow is to setup the document template. If you do not want to send documents in PDF form to your customers and just want simple singing pages, then skip the first step and continue to [Document Setup](https://docs.dialing.se/esigning/creating-a-flow/#document-setup). Otherwise, click "Create New"
@@ -42,6 +44,8 @@ By default, Dialing allows inserting default lead date data such as Firstname, L
 
 When you are done inserting merge field, click "Next Step" or "Save".
 
+***
+
 ### Senders
 
 All documents are sent from reports@dialing.se with the from-name masked as the name of the sender you chose. The reply-to address is set as the sender you chose as well.
@@ -55,6 +59,8 @@ There are two types of senders; **static** and **dynamic**.
 ![](/uploads/Screenshot 2018-08-28 20.51.11.png)
 
 When you are done with this step, click "Next".
+
+***
 
 ### Document Setup
 
@@ -106,6 +112,8 @@ For the document name, we also inserted today's date:
 
 When you are done with this step, click "Next".
 
+***
+
 ### Flow Settings
 
 In this part, you need to give the flow a name, set the expire time and reminder time. You also have to select your delivery method.
@@ -122,6 +130,8 @@ For delivery methods, you can select:
 * Prefer SMS - If no mobile number is found, an email will be sent
 * Prefer Email - If no email is found, an SMS will be sent
 
+***
+
 ### Triggers
 
 A trigger defines when a document should be sent, and what outcome should change when the customer interacts with the document.
@@ -135,6 +145,8 @@ Many call centers may use different suboutcomes for orders pending approval, and
 In the example, we will send a document when the outcome is **"Yes thank you" - "Ja 1"**. When the document gets signed, we will change the outcome to **"Yes thank you" - "Ja 2".**
 
 If a document gets rejected or expires, you can set it to **"Failure"** or even a **"Personal Callback"**.
+
+***
 
 ### SMS & Email Settings
 
