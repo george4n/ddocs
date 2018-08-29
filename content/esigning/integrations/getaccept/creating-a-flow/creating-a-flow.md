@@ -1,7 +1,6 @@
 +++
 chapter = false
 date = "2018-08-27T16:22:22.000+03:00"
-draft = true
 menuTitle = "- Creating a Flow"
 title = "Creating a Flow"
 weight = 3
@@ -104,4 +103,20 @@ For delivery methods, you can select:
 * Email only
 * Both SMS & Email
 
-### SMS & Email Settings
+### Triggers
+
+A trigger defines when a document should be sent, and what outcome should change when the customer interacts with the document.
+
+![](/uploads/Screenshot 2018-08-29 15.00.38.png)
+
+##### eSigning Triggers
+
+Many call centers may use different suboutcomes for orders pending approval, and orders approved. For the sending trigger, you can set it send if the outcome is **"Yes" - "Pending Approval"**. When the document gets signed, the outcome will change to **"Yes" - "Order Approved"**.
+
+In the example, we will send a document when the outcome is **"Yes thank you" - "Yes 1"**. When the document gets signed, we will change the outcome to **"Yes thank you" - "Yes 2".**
+
+If a document gets rejected or expires, you can set it to **"Failure"** or even a **"Personal Callback"**.
+
+When you are done, press "Finish".
+
+If you go back to the eSigning Flow page, you should see your flow at the top of the list. It is active by default.
