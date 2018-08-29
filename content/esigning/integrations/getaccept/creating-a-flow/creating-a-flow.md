@@ -93,4 +93,15 @@ When you are done with this step, click "Next".
 
 ### Flow Settings
 
+In this part, you need to give the flow a name, set the expire time and reminder time. You also have to select your delivery method.
+
+![](/uploads/Screenshot 2018-08-29 14.59.16.png)
+
+For expire time, you can set it as amount of days or the day of the week, ie, all documents should expire on a Sunday.
+
+For delivery methods, you can select:
+
+* Email only
+* Both SMS & Email
+
 ### SMS & Email Settings
