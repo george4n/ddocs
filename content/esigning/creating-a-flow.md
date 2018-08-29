@@ -18,7 +18,7 @@ Then select "Dialing eSigning"
 
 ### Template Setup
 
-The first step in making an eSigning flow is to setup the document template. The template. If you do not want to send documents in PDF form to your customers and just want simple singing pages, then skip the first step and continue to [Document Setup](https://docs.dialing.se/esigning/creating-a-flow/#document-setup). Otherwise, click "Create New"
+The first step in making an eSigning flow is to setup the document template. If you do not want to send documents in PDF form to your customers and just want simple singing pages, then skip the first step and continue to [Document Setup](https://docs.dialing.se/esigning/creating-a-flow/#document-setup). Otherwise, click "Create New"
 
 ![](/uploads/Screenshot 2018-08-28 20.28.36.png)
 
