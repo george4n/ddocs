@@ -96,7 +96,7 @@ When you are done filling in the fields, it should look something like this:
 
 ![](/uploads/Screenshot 2018-08-29 10.21.27.png)
 
-Not how we did a custom calculation for "our-custom-field"
+Note how we did a custom calculation for "our-custom-field"
 
     [[{{of.test }}*1.20]]
 
