@@ -153,3 +153,5 @@ When you have added all your text, click the "Preview" button to see roughly wha
 ![](/uploads/Screenshot 2018-08-29 11.51.25.png)
 
 When you are done, press "Finish".
+
+If you go back to the eSigning Flow page, you should see your flow at the top of the list. It is active by default.
