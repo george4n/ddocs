@@ -35,7 +35,11 @@ There are two types of senders; **static** and **dynamic**.
 
 **Dynamic Sender**: This setting will will allow for dynamic senders. All documents will will be sent from each respective agent in Dialing. Customers can reply directly to the agent via email. The user profiles should be updated with Firstname, Lastname and Title and Mobile (if required). Select “dynamic sender” when adding a sender. 
 
-{{% notice note %}} Please be aware that users should not be created in GetAccept, Dialing will create those users when required. {{% /notice %}}
+{{% notice note %}}
+
+Please be aware that users should not be created in GetAccept, Dialing will create those users when required. 
+
+{{% /notice %}}
 
 ![](/uploads/Screenshot 2018-08-28 20.51.11.png)
 
