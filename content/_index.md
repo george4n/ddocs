@@ -11,3 +11,6 @@ chapter = true
 # Public Documentation
 
 Use the menu to the left to read about a topic. You can also search for keywords on the page using the search at the top left. If you have any questions, please contact support@dialing.se
+
+
+{{< video >}}/uploads/test.mp4{{< /video >}}
