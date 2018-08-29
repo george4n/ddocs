@@ -122,6 +122,20 @@ For delivery methods, you can select:
 * Prefer SMS - If no mobile number is found, an email will be sent
 * Prefer Email - If no email is found, an SMS will be sent
 
+### Triggers
+
+A trigger defines when a document should be sent, and what outcome should change when the customer interacts with the document.
+
+![](/uploads/Screenshot 2018-08-29 10.27.29.png)
+
+##### eSigning Triggers
+
+Many call centers may use different suboutcomes for orders pending approval, and orders approved. For the sending trigger, you can set it send if the outcome is **"Yes" - "Pending Approval"**. When the document gets signed, the outcome will change to **"Yes" - "Order Approved"**.
+
+In the example, we will send a document when the outcome is **"Yes thank you" - "Ja 1"**. When the document gets signed, we will change the outcome to **"Yes thank you" - "Ja 2".**
+
+If a document gets rejected or expires, you can set it to **"Failure"** or even a **"Personal Callback"**.
+
 ### SMS & Email Settings
 
-This is some text
+This is the final step in creating a flow.
