@@ -15,9 +15,9 @@ Then select "GetAccept"
 
 ![](/uploads/Screenshot 2018-08-28 20.34.26.png)
 
-You will need to create an **authenticated entity** in GetAccept. Input your username and password, you will be prompted to select which entity to connect to. Then assign this authenticated entity to a customer and campaign in Dialing.
+You will need to create an **authenticated entity** in GetAccept. Input your username and password, you will be prompted to select which entity to connect to. Then assign this authenticated entity to a customer and campaign in Dialing. When you are done, press "Continue" on the entity you created.
 
-![](/uploads/Screenshot 2018-08-29 12.10.55.png)
+![](/uploads/Screenshot 2018-08-29 14.39.02.png)
 
 ### Template Setup
 
@@ -41,11 +41,59 @@ Please be aware that users should not be created in GetAccept, Dialing will crea
 
 {{% /notice %}}
 
-![](/uploads/Screenshot 2018-08-28 20.51.11.png)
+![](/uploads/Screenshot 2018-08-29 14.40.32.png)
 
 When you are done with this step, click "Next".
 
 ### Document Setup
+
+In this part, we have to map data from the Dialing system to the document template.
+
+The page will initially look something like this:
+
+![](/uploads/Screenshot 2018-08-28 20.59.49.png)
+
+Select which template to load, if you have already done this in the first step, then move onto selecting which campaign this flow will apply to.
+
+The first field "Document Name" is a standard field, and will be present in all flows. We can also see a field for "Firstname", "Lastname" and "our-custom-field" in the example above.
+
+For each field, we can select a Data Type and Data Value to insert into the field. They will be inserted as a **shortcode**. You can use shortcodes to construct numbers and strings. You can also apply functions to these shortcodes. It sounds complicating, but really, its not :)
+
+You can insert system variables into your fields:
+
+Ringcard Fields, begin with "rc"
+
+    {{rc.firstname}}
+
+Order Form Fields, begin with "of"
+
+    {{of.product}}
+
+These variables must always be enclosed inside double curly braces like so:
+
+    {{xx.variableName}}
+
+Functions - There are a number of functions you can execute against variables. Functions are always wrapped in double brackets like so:
+
+    [[ 1 + 2 ]]
+
+These shortcodes can be made up of the following:
+
+    {{rc.Personnummer/Organisationsnummer}}-[YYYY-MM-DD]-Document
+
+When you are done filling in the fields, it should look something like this:
+
+![](/uploads/Screenshot 2018-08-29 10.21.27.png)
+
+Note how we did a custom calculation for "our-custom-field"
+
+    [[{{of.test }}*1.20]]
+
+For the document name, we also inserted today's date:
+
+    {{rc.Personal no}} - [YYYY-MM-DD] - Agreement
+
+When you are done with this step, click "Next".
 
 ### Flow Settings
 
