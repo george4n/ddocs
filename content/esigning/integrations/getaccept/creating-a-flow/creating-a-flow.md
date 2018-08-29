@@ -47,13 +47,13 @@ When you are done with this step, click "Next".
 
 ### Document Setup
 
-In this part, we have to map data from the Dialing system to the document template.
+In this part, we have to map data from the Dialing system to the document template in GetAccept.
 
 The page will initially look something like this:
 
-![](/uploads/Screenshot 2018-08-28 20.59.49.png)
+![](/uploads/Screenshot 2018-08-29 14.54.43.png)
 
-Select which template to load, if you have already done this in the first step, then move onto selecting which campaign this flow will apply to.
+Select which template to load.
 
 The first field "Document Name" is a standard field, and will be present in all flows. We can also see a field for "Firstname", "Lastname" and "our-custom-field" in the example above.
 
@@ -80,10 +80,6 @@ Functions - There are a number of functions you can execute against variables. F
 These shortcodes can be made up of the following:
 
     {{rc.Personnummer/Organisationsnummer}}-[YYYY-MM-DD]-Document
-
-When you are done filling in the fields, it should look something like this:
-
-![](/uploads/Screenshot 2018-08-29 10.21.27.png)
 
 Note how we did a custom calculation for "our-custom-field"
 
