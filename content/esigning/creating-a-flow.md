@@ -138,6 +138,18 @@ If a document gets rejected or expires, you can set it to **"Failure"** or even 
 
 ### SMS & Email Settings
 
-This is the final step in creating a flow. Here we can upload a logo for the signing page, we can also set the email and SMS body text using system variables.
+This is the final step in creating a flow. Here we can upload a logo for the signing page, we can also set the email and SMS body text using system variables. We should set the body text for:
+
+* Initial message
+* Reminder message
+* Signed message
+
+You can also check the box "same as email" to have both the body of the email and SMS be the same. Note, for SMS, you may send more than 1 SMS if your body text is too long.
 
 ![](/uploads/Screenshot 2018-08-29 10.37.19.png)
+
+When you have added all your text, click the "Preview" button to see roughly what the SMS or email will look like.
+
+![](/uploads/Screenshot 2018-08-29 11.51.25.png)
+
+When you are done, press "Finish".
