@@ -8,11 +8,7 @@ weight = 3
 +++
 Here we will learn how to create an eSinging flow in Dialing. If you do not want to send documents in PDF form to your customers and just want simple singing pages, then skip the first step and continue to [Document Setup](https://docs.dialing.se/esigning/creating-a-flow/#document-setup).
 
-To begin, on the eSigning Flows page, click on "Create a Flow".
-
-![](/uploads/Screenshot 2018-08-28 20.32.14.png)
-
-Then select "Dialing eSigning"
+To begin, on the eSigning Flows page, click on "Create a Flow". Then select "Dialing eSigning"
 
 {{< video >}}/uploads/video/esigning-dialing-flow1.mp4{{< /video >}}
 
