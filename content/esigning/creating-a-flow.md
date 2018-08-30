@@ -14,7 +14,7 @@ To begin, on the eSigning Flows page, click on "Create a Flow".
 
 Then select "Dialing eSigning"
 
-![](/uploads/Screenshot 2018-08-28 20.34.26.png)
+{{< video >}}/uploads/video/esigning-dialing-flow1.mp4{{< /video >}}
 
 ***
 
