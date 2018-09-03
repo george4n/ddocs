@@ -6,7 +6,7 @@ title = "Creating a Flow"
 weight = 3
 
 +++
-Here we will learn how to create an eSinging flow in Dialing. If you do not want to send documents in PDF form to your customers and just want simple singing pages, then skip the first step and continue to [Document Setup](https://docs.dialing.se/esigning/creating-a-flow/#document-setup).
+Here we will learn how to create an eSinging flow in Dialing. If you do not want to send documents in PDF form to your customers and just want simple signing pages, then skip the first step and continue to [Document Setup](https://docs.dialing.se/esigning/creating-a-flow/#document-setup).
 
 To begin, on the eSigning Flows page, click on "Create a Flow". Then select "Dialing eSigning"
 
@@ -16,7 +16,7 @@ To begin, on the eSigning Flows page, click on "Create a Flow". Then select "Dia
 
 ### Template Setup
 
-The first step in making an eSigning flow is to setup the document template. If you do not want to send documents in PDF form to your customers and just want simple singing pages, then skip the first step and continue to [Document Setup](https://docs.dialing.se/esigning/creating-a-flow/#document-setup). Otherwise, click "Create New"
+The first step in making an eSigning flow is to setup the document template. If you do not want to send documents in PDF form to your customers and just want simple signing pages, then skip the first step and continue to [Document Setup](https://docs.dialing.se/esigning/creating-a-flow/#document-setup). Otherwise, click "Create New"
 
 ![](/uploads/Screenshot 2018-08-28 20.28.36.png)
 
@@ -24,7 +24,7 @@ Upload your desired PDF. This will form the basis of the document template. Once
 
 ![](/uploads/Screenshot 2018-08-28 20.38.30.png)
 
-Now you can drag "Merge Fields" and "Signature Fields" onto your document. When you add a merge field, you can edit the following:
+Now you can drag **merge fields** and **signature fields** onto your document. When you add a merge field, you can edit the following:
 
 * The merge field: what data should be inserted into this field
 * Font name
@@ -34,11 +34,11 @@ Now you can drag "Merge Fields" and "Signature Fields" onto your document. When 
 
 ![](/uploads/Screenshot 2018-08-28 20.48.51.png)
 
-By default, Dialing allows inserting default lead date data such as Firstname, Lastname, Zip Code, etc. However, you can also create a custom field for custom data simply by selecting "Custom Field" for the merge type.
+By default, Dialing allows inserting default lead data such as Firstname, Lastname, Zip Code, etc. However, you can also create a custom field for custom data simply by selecting "Custom Field" for the merge type.
 
 ![](/uploads/Screenshot 2018-08-28 20.47.07.png)
 
-When you are done inserting merge field, click "Next Step" or "Save".
+When you are done inserting merge fields, click "Next Step" or "Save".
 
 ***
 
@@ -68,9 +68,9 @@ The page will initially look something like this:
 
 Select which template to load, if you have already done this in the first step, then move onto selecting which campaign this flow will apply to.
 
-The first field "Document Name" is a standard field, and will be present in all flows. We can also see a field for "Firstname", "Lastname" and "our-custom-field" in the example above.
+The first field "Document Name" is a standard field, and will be present in all flows. This is will form the physical file name of the signed PDF. We can also see a field for "Firstname", "Lastname" and "our-custom-field" in the example above.
 
-For each field, we can select a Data Type and Data Value to insert into the field. They will be inserted as a **shortcode**. You can use shortcodes to construct numbers and strings. You can also apply functions to these shortcodes. It sounds complicating, but really, its not :)
+For each field, we can select a Data Type and Data Value to insert into the field. They will be inserted as a **shortcode**. You can use shortcodes to construct numbers and strings. You can also apply functions to these shortcodes. It sounds complicating, but really, it's not :)
 
 You can insert system variables into your fields:
 
@@ -116,7 +116,7 @@ In this part, you need to give the flow a name, set the expire time and reminder
 
 ![](/uploads/Screenshot 2018-08-29 10.23.25.png)
 
-For expire time, you can set it as amount of days or the day of the week, ie, all documents should expire on a Sunday.
+For expire time, you can set it as amount of days or the day of the week, ie, all documents should expire on a Sunday OR they should expire after 7 days.
 
 For delivery methods, you can select:
 
