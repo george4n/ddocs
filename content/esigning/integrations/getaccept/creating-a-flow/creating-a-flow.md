@@ -32,11 +32,11 @@ There are two types of senders; **static** and **dynamic**.
 
 **Static Sender**: All documents will be sent from this sender. Either select a single user from the list, or select “Add Sender” to create a new one.
 
-**Dynamic Sender**: This setting will will allow for dynamic senders. All documents will will be sent from each respective agent in Dialing. Customers can reply directly to the agent via email. The user profiles should be updated with Firstname, Lastname and Title and Mobile (if required). Select “dynamic sender” when adding a sender. 
+**Dynamic Sender**: This setting will will allow for dynamic senders. All documents will will be sent from each respective agent in Dialing. Customers can reply directly to the agent via email. The user profiles should be updated with Firstname, Lastname and Title and Mobile (if required). Select “dynamic sender” when adding a sender.
 
 {{% notice warning %}}
 
-Please be aware that users should not be created in GetAccept, Dialing will create those users when required. 
+Please be aware that users should not be created in GetAccept, Dialing will create those users when required.
 
 {{% /notice %}}
 
@@ -96,7 +96,7 @@ In this part, you need to give the flow a name, set the expire time and reminder
 
 ![](/uploads/Screenshot 2018-08-29 14.59.16.png)
 
-For expire time, you can set it as amount of days or the day of the week, ie, all documents should expire on a Sunday.
+For expire time, you can set it as amount of days or the day of the week, ie, all documents should expire on a Sunday OR documents should expire after 7 days.
 
 For delivery methods, you can select:
 
